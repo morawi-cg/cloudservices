@@ -21,11 +21,11 @@ Task
 <li>Install Nginx on the web node and balance requests to the application nodes in a round-robin fashion</li>
 <li>Demonstrate the round-robin mechanism is working correctly</li></ul>
  
-Goal
+<b>Goal</b>
 <li>Sending a HTTP request to the web node should return the response<li>
 <li>Hi there, I'm served from "application node hostname"! </li></ul>
  
-Considerations
+<b>Considerations</b>
 <ul><li>Share your work on a public git repo</li>
 <li>Include a README.md with clear and concise instructions</li>
 <li>Invocation should be a one line command string</li>
