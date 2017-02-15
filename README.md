@@ -1,5 +1,5 @@
 # Cloudservices
-<h1>Joined project for the AIE devops team</h1>
+<h1>Collaboration project for the AIE devops team</h1>
 <h2>Step-by-step guide</h2>
 <ul><h3>Team processes to construct product:</h3>
 <li>Define a cloud based structure, (private or public cloud).</li>
@@ -22,7 +22,7 @@ b) Using a configuration management tool
 <li>Demonstrate the round-robin mechanism is working correctly</li></ul>
  
 <b>Goal</b>
-<li>Sending a HTTP request to the web node should return the response, " Hi there, I'm served from "application node hostname"! "</li>
+Sending a HTTP request to the web node should return the response, " Hi there, I'm served from "application node hostname"! "
  
 <b>Considerations</b>
 <ul><li>Share your work on a public git repo</li>
