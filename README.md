@@ -65,6 +65,8 @@ http {
         location / { proxy_pass http://backend; } }
     upstream backend { 
         server web-server1:5000;
-        server web-server2:5000; } }
+        server web-server2:5000; 
+        } 
+     }
 ```
 The Two servers at the bottom represent our python(app) servers. Our app is dependent upon Python3.4, Flask and Pip3.
