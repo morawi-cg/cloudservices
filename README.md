@@ -82,8 +82,7 @@ The Two servers at the bottom represent our python(app) servers. Our app is depe
 
 <b>Security Group</b>
 
-<br> <br>
-
+<br> 
 <img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/Cloud_Services_Security_Groups.PNG" alt="Cloud Security Group" >
 
 
