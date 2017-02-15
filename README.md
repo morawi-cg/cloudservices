@@ -91,11 +91,11 @@ The following load balancing mechanisms (or methods) are supported in nginx:
 <li>least-connected — next request is assigned to the server with the least number of active connections,</li>
 <li>ip-hash — a hash-function is used to determine what server should be selected for the next request (based on the client’s IP address).</li></ul>
 
-<b> Logical Concept Design <b>
+<b> Logical Concept Design </b>
 
 <img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/CloudService.PNG" alt="Cloud Data Design" >
 
-<b><p>Security Group</p></b> <br>
+<b><p>Security Group</b>
 
 <p>Amazon VPC provides features that you can use to increase and monitor the security for your VPC:</p>
 
