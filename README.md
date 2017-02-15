@@ -31,9 +31,9 @@ b) Using a configuration management tool
 <li>Take care not to over engineer a solution</li></ul>
  
 <b>Bonus point</b>
-<li>For changes to the sample code, automate the build and delivery to the environment using Drone.<li>
+<p>For changes to the sample code, automate the build and delivery to the environment using Drone.</p>
  
-Sample application code (Go)
+ <p><b>Sample application code (Go)</b></p>
 ```
 package main
 import (
