@@ -95,7 +95,7 @@ The following load balancing mechanisms (or methods) are supported in nginx:
 
 <img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/CloudService.PNG" alt="Cloud Data Design" >
 
-<b>Security Group</b>
+<p><b>Security Group</b></p>
 
 <p>Amazon VPC provides features that you can use to increase and monitor the security for your VPC:</p>
 
