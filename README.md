@@ -74,10 +74,10 @@ http {
         } 
      }
 ```
-The Two servers at the bottom represent our python(app) servers. Our app is dependent upon Python3.4, Flask and Pip3.
+<p>The Two servers at the bottom represent our python(app) servers. Our app is dependent upon Python3.4, Flask and Pip3.</p>
 
 
-<b>Load balancing</b>
+<p><b>Load balancing</b></p>
 
 <p>Load balancing across multiple application instances is a commonly used technique for optimizing resource utilization, maximizing throughput, reducing latency, and ensuring fault-tolerant configurations.</p>
 
