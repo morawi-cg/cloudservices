@@ -92,5 +92,12 @@ http {
 <br> 
 <img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/Cloud_Services_Security_Groups.PNG" alt="Cloud Security Group">
 
+<b>Load balancing methods</b>
+
+<b>The following load balancing mechanisms (or methods) are supported in nginx:</b>
+
+<ul><li>round-robin — requests to the application servers are distributed in a round-robin fashion,<li>
+<li>least-connected — next request is assigned to the server with the least number of active connections,</li>
+<li>ip-hash — a hash-function is used to determine what server should be selected for the next request (based on the client’s IP address).</li><ul>
 
 
