@@ -1,4 +1,4 @@
-# cloudservices
+# Cloudservices
 <h1>Joined project for the AIE devops team</h1>
 <h2>Step-by-step guide</h2>
 <ul><h3>Team processes to construct product:</h3>
@@ -11,12 +11,12 @@
 This task should demonstrate your grasp of key DevOps skills, such as working with source control, automation, orchestration and software
 configuration management.</p>
  
-Task
-<ul><li>a) Launch 3 separate linux nodes using the tool/distro of your choice</li>
+<b>Task</b>
+a) Launch 3 separate linux nodes using the tool/distro of your choice
 <li>2 x application nodes</li>
 <li>1 x web node</li></ul>
  
-<li>b) Using a configuration management tool</li>
+b) Using a configuration management tool
 <li>Deploy the sample application to the application nodes</li>
 <li>Install Nginx on the web node and balance requests to the application nodes in a round-robin fashion</li>
 <li>Demonstrate the round-robin mechanism is working correctly</li></ul>
@@ -34,7 +34,7 @@ Task
 <b>Bonus point</b>
 <li>For changes to the sample code, automate the build and delivery to the environment using Drone.<li>
  
-'''Sample application code (Go)'''
+Sample application code (Go)
 package main
 import (
 "fmt"
@@ -51,4 +51,4 @@ func main() {
 http.HandleFunc("/", handler)
 http.ListenAndServe(":8484", nil)
 }
- '''
+ 
