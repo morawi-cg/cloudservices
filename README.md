@@ -55,7 +55,7 @@ http.HandleFunc("/", handler)
 http.ListenAndServe(":8484", nil)
 }
 ``` 
-<p>Load Balancing with 'NGINX':<p>
+<b>Load Balancing with 'NGINX':</b>
 <p>This web server is one of the fastest and most reliable web servers. It has taken a large portion of the web server market since its launch. Written in a very efficient way makes it the most suitable for large scale high load deployments. 
 This template represents the configuration options that need to be finalized for this webserver to be running as a load balancer. <p>
 ```
