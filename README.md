@@ -83,6 +83,14 @@ http {
 
 <p>It is possible to use nginx as a very efficient HTTP load balancer to distribute traffic to several application servers and to improve performance, scalability and reliability of web applications with nginx.</p>
 
+<b>Load balancing methods<b>
+
+The following load balancing mechanisms (or methods) are supported in nginx:
+
+<ul><li>round-robin — requests to the application servers are distributed in a round-robin fashion,</li>
+<li>least-connected — next request is assigned to the server with the least number of active connections,</li>
+<li>ip-hash — a hash-function is used to determine what server should be selected for the next request (based on the client’s IP address).</li></ul>
+
 <b> Logical Concept Design <b>
 
 <img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/CloudService.PNG" alt="Cloud Data Design" >
@@ -92,12 +100,6 @@ http {
 <br> 
 <img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/Cloud_Services_Security_Groups.PNG" alt="Cloud Security Group">
 
-<b>Load balancing methods</b>
 
-The following load balancing mechanisms (or methods) are supported in nginx:
-<br>
-<ul><li>round-robin — requests to the application servers are distributed in a round-robin fashion,</li>
-<li>least-connected — next request is assigned to the server with the least number of active connections,</li>
-<li>ip-hash — a hash-function is used to determine what server should be selected for the next request (based on the client’s IP address).</li><ul>
 
 
