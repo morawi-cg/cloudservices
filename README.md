@@ -102,6 +102,7 @@ The following load balancing mechanisms (or methods) are supported in nginx:
 <ul><li>Security groups — Act as a firewall for associated Amazon EC2 instances, controlling both inbound and outbound traffic at the instance level</li>
 <li>Network access control lists (ACLs) — Act as a firewall for associated subnets, controlling both inbound and outbound traffic at the subnet level</li>
 <li>Flow logs — Capture information about the IP traffic going to and from network interfaces in your VPC</li></ul>
+
 <p>In this example were using security groups to controll our inbound and outbound (ingress or egress) traffic, namely for ngix and igress routing.</p>
 
 <br> 
