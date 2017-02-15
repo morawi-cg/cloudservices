@@ -94,7 +94,7 @@ http {
 
 <b>Load balancing methods</b>
 
-<b>The following load balancing mechanisms (or methods) are supported in nginx:</b>
+The following load balancing mechanisms (or methods) are supported in nginx:
 <br>
 <ul><li>round-robin — requests to the application servers are distributed in a round-robin fashion,</li>
 <li>least-connected — next request is assigned to the server with the least number of active connections,</li>
