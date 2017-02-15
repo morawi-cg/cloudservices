@@ -55,6 +55,8 @@ http.HandleFunc("/", handler)
 http.ListenAndServe(":8484", nil)
 }
 ``` 
+<h3> Cloud Structure </h3>
+
 <b>Load Balancing with 'NGINX':</b>
 <p>This web server is one of the fastest and most reliable web servers. It has taken a large portion of the web server market since its launch. Written in a very efficient way makes it the most suitable for large scale high load deployments. 
 This template represents the configuration options that need to be finalized for this webserver to be running as a load balancer. <p>
@@ -74,11 +76,14 @@ http {
 ```
 The Two servers at the bottom represent our python(app) servers. Our app is dependent upon Python3.4, Flask and Pip3.
 
-<b> Concept Design <b>
-
+<b> Logical Concept Design <b>
 
 <img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/CloudService.PNG" alt="Cloud Data Design" >
 
+<b>Security Group</b>
+
+<br> 
+<img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/Cloud_Services_Security_Groups.PNG" alt="Cloud Security Group" >
 
 
 
