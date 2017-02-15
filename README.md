@@ -22,7 +22,7 @@ b) Using a configuration management tool
 <li>Demonstrate the round-robin mechanism is working correctly</li></ul>
  
 <b>Goal</b>
-Sending a HTTP request to the web node should return the response, " Hi there, I'm served from "application node hostname"! "
+<p>Sending a HTTP request to the web node should return the response, " Hi there, I'm served from "application node hostname"! "</p>
  
 <b>Considerations</b>
 <ul><li>Share your work on a public git repo</li>
