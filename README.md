@@ -74,10 +74,10 @@ http {
         } 
      }
 ```
-<p>The Two servers at the bottom represent our python(app) servers. Our app is dependent upon Python3.4, Flask and Pip3.</p>
 
+<p>The Two servers at the bottom represent our python(app) servers. Our app is dependent upon Python3.4, Flask and Pip3.</p> <br>
 
-<p><b>Load balancing</b></p>
+Load balancing
 
 <p>Load balancing across multiple application instances is a commonly used technique for optimizing resource utilization, maximizing throughput, reducing latency, and ensuring fault-tolerant configurations.</p>
 
@@ -88,7 +88,6 @@ http {
 <img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/CloudService.PNG" alt="Cloud Data Design" >
 
 <b>Security Group</b>
-
 
 
 <br> 
