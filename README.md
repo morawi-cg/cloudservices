@@ -11,7 +11,7 @@
 This task should demonstrate your grasp of key DevOps skills, such as working with source control, automation, orchestration and software
 configuration management.</p>
  
-<b>Task</b>
+<b>Task</b><br><br>
 a) Launch 3 separate linux nodes using the tool/distro of your choice
 <li>2 x application nodes</li>
 <li>1 x web node</li></ul>
@@ -22,8 +22,7 @@ b) Using a configuration management tool
 <li>Demonstrate the round-robin mechanism is working correctly</li></ul>
  
 <b>Goal</b>
-<li>Sending a HTTP request to the web node should return the response<li>
-<li>Hi there, I'm served from "application node hostname"! </li></ul>
+<li>Sending a HTTP request to the web node should return the response, " Hi there, I'm served from "application node hostname"! "</li>
  
 <b>Considerations</b>
 <ul><li>Share your work on a public git repo</li>
