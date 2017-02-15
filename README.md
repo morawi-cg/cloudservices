@@ -6,7 +6,7 @@
 <li>Configure the base files, (configuration files and source code shared on git hub).</li>
 <li>Test and correct the code & configuration files. </li> 
 </ul>
-<p>Icon</p>
+<b>Icon</b>
 <p>The technical challenge specification as delivered by Project management team:
 This task should demonstrate your grasp of key DevOps skills, such as working with source control, automation, orchestration and software
 configuration management.</p>
