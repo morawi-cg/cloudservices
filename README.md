@@ -73,3 +73,12 @@ http {
      }
 ```
 The Two servers at the bottom represent our python(app) servers. Our app is dependent upon Python3.4, Flask and Pip3.
+
+<b> Concept Design <b>
+
+
+<img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/CloudService.PNG" alt="Cloud Data Design" >
+
+
+
+
