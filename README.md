@@ -1,5 +1,5 @@
 <h1> Cloudservices</h1> 
-<h2>Collaboration project for the AIE devops team</h2>
+<p>Collaboration project for the AIE devops team</p>
 <h2>Step-by-step guide</h2>
 <h3>Team processes to construct product:</h3>
 <ul><li>Define a cloud based structure, (private or public cloud).</li>
