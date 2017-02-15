@@ -76,11 +76,20 @@ http {
 ```
 The Two servers at the bottom represent our python(app) servers. Our app is dependent upon Python3.4, Flask and Pip3.
 
+
+<b>Load balancing</b>
+
+<p>Load balancing across multiple application instances is a commonly used technique for optimizing resource utilization, maximizing throughput, reducing latency, and ensuring fault-tolerant configurations.</p>
+
+<p>It is possible to use nginx as a very efficient HTTP load balancer to distribute traffic to several application servers and to improve performance, scalability and reliability of web applications with nginx.</p>
+
 <b> Logical Concept Design <b>
 
 <img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/CloudService.PNG" alt="Cloud Data Design" >
 
 <b>Security Group</b>
+
+
 
 <br> 
 <img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/Cloud_Services_Security_Groups.PNG" alt="Cloud Security Group" >
