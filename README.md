@@ -16,23 +16,23 @@ Task
 <li>2 x application nodes</li>
 <li>1 x web node</li></ul>
  
-<ul><li>b) Using a configuration management tool</li>
+<li>b) Using a configuration management tool</li>
 <li>Deploy the sample application to the application nodes</li>
 <li>Install Nginx on the web node and balance requests to the application nodes in a round-robin fashion</li>
 <li>Demonstrate the round-robin mechanism is working correctly</li></ul>
  
-<ul>Goal
-<p>Sending a HTTP request to the web node should return the response</p>
-<p>Hi there, I'm served from "application node hostname"! </li></ul>
+Goal
+<li>Sending a HTTP request to the web node should return the response<li>
+<li>Hi there, I'm served from "application node hostname"! </li></ul>
  
- <ul><h4>Considerations</h4>
-<li>Share your work on a public git repo</li>
+Considerations
+<ul><li>Share your work on a public git repo</li>
 <li>Include a README.md with clear and concise instructions</li>
 <li>Invocation should be a one line command string</li>
 <li>Take care not to over engineer a solution</li></ul>
  
-<ul>Bonus point
-<li>For changes to the sample code, automate the build and delivery to the environment using Drone.<li></ul>
+<b>Bonus point</b>
+<li>For changes to the sample code, automate the build and delivery to the environment using Drone.<li>
  
 '''Sample application code (Go)'''
 package main
