@@ -12,18 +12,18 @@ This task should demonstrate your grasp of key DevOps skills, such as working wi
 configuration management.</p>
  
 Task
-<ol><li>a) Launch 3 separate linux nodes using the tool/distro of your choice</li>
+<ul><li>a) Launch 3 separate linux nodes using the tool/distro of your choice</li>
 <li>2 x application nodes</li>
-<li>1 x web node</li></ol>
+<li>1 x web node</li></ul>
  
-<ol><li>b) Using a configuration management tool</li>
+<ul><li>b) Using a configuration management tool</li>
 <li>Deploy the sample application to the application nodes</li>
 <li>Install Nginx on the web node and balance requests to the application nodes in a round-robin fashion</li>
-<li>Demonstrate the round-robin mechanism is working correctly</li></ol>
+<li>Demonstrate the round-robin mechanism is working correctly</li></ul>
  
 <ul>Goal
 <p>Sending a HTTP request to the web node should return the response</p>
-<p>Hi there, I'm served from "application node hostname"! </p></ul>
+<p>Hi there, I'm served from "application node hostname"! </li></ul>
  
  <ul><h4>Considerations</h4>
 <li>Share your work on a public git repo</li>
