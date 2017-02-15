@@ -75,7 +75,7 @@ http {
         } 
      }
  ```
-<p>The Two servers at the bottom represent our python(app) servers. Our app is dependent upon Python3.4, Flaskpip, uwsgi and Pip3.</p> <br>
+<p>The Two servers at the bottom represent our python(app) servers. Our app is dependent upon Python3.4, Flask and Pip3.</p> <br>
 
 <b>Load balancing</b><br>
 
@@ -95,7 +95,7 @@ The following load balancing mechanisms (or methods) are supported in nginx:
 
 <img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/CloudService.PNG" alt="Cloud Data Design" >
 
-<p><b>Security Group</b></p>
+<b><p>Security Group</p></b> <br>
 
 <p>Amazon VPC provides features that you can use to increase and monitor the security for your VPC:</p>
 
