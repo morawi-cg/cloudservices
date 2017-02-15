@@ -1,8 +1,8 @@
-# Cloudservices
-<h1>Collaboration project for the AIE devops team</h1>
+<h1> Cloudservices</h1> 
+<h2>Collaboration project for the AIE devops team</h2>
 <h2>Step-by-step guide</h2>
-<ul><h3>Team processes to construct product:</h3>
-<li>Define a cloud based structure, (private or public cloud).</li>
+<h3>Team processes to construct product:</h3>
+<ul><li>Define a cloud based structure, (private or public cloud).</li>
 <li>Configure the base files, (configuration files and source code shared on git hub).</li>
 <li>Test and correct the code & configuration files. </li> 
 </ul>
