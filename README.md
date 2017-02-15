@@ -62,7 +62,10 @@ This template represents the configuration options that need to be finalized for
 http {
     server {
         listen 80;
-        location / { proxy_pass http://backend; } }
+        location / { proxy_pass http://backend; 
+           } 
+        }
+    
     upstream backend { 
         server web-server1:5000;
         server web-server2:5000; 
