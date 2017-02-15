@@ -59,7 +59,8 @@ http.ListenAndServe(":8484", nil)
 
 <b>Load Balancing with 'NGINX':</b>
 <p>This web server is one of the fastest and most reliable web servers. It has taken a large portion of the web server market since its launch. Written in a very efficient way makes it the most suitable for large scale high load deployments. 
-This template represents the configuration options that need to be finalized for this webserver to be running as a load balancer. <p>
+This template represents the configuration options that need to be finalized for this webserver to be running as a load balancer. </p>
+
 ```
 http {
     server {
@@ -73,11 +74,10 @@ http {
         server web-server2:5000; 
         } 
      }
-```
-
+ ```
 <p>The Two servers at the bottom represent our python(app) servers. Our app is dependent upon Python3.4, Flask and Pip3.</p> <br>
 
-Load balancing
+<b>Load balancing</b><br>
 
 <p>Load balancing across multiple application instances is a commonly used technique for optimizing resource utilization, maximizing throughput, reducing latency, and ensuring fault-tolerant configurations.</p>
 
@@ -89,9 +89,8 @@ Load balancing
 
 <b>Security Group</b>
 
-
 <br> 
-<img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/Cloud_Services_Security_Groups.PNG" alt="Cloud Security Group" >
+<img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/Cloud_Services_Security_Groups.PNG" alt="Cloud Security Group">
 
 
 
