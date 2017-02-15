@@ -83,7 +83,7 @@ http {
 
 <p>It is possible to use nginx as a very efficient HTTP load balancer to distribute traffic to several application servers and to improve performance, scalability and reliability of web applications with nginx.</p>
 
-<b>Load balancing methods<b>
+<b>Load balancing methods</b>
 
 The following load balancing mechanisms (or methods) are supported in nginx:
 
