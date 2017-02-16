@@ -126,3 +126,32 @@ The following load balancing mechanisms (or methods) are supported in nginx:
 <p>One key link to our details on web config 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-uwsgi-and-nginx-to-serve-python-apps-on-ubuntu-14-04 <p>
 
+<b>Steps to Follow: </b>
+
+Step 1: Elastic IP
+
+This is for the external ip to access from client to our ip.
+
+<img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/AWS_ExternalP_to_natted_structure.PNG" alt="Image showing The elastic IP is created">
+<br>
+Step 2: Nat Gateway
+
+Subnet mask send to communicate with the elastic IP
+
+<img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/AWS_Allocate_Static_Elastic_IP.PNG" alt="Diagram Showing illustration of an Elastic IP">
+
+Step 3:  AWS Subnets
+
+Setup Your Assosiated AWS Subnet
+<br>
+<img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/AWS_Subnets_Assosiated.PNG" alt="Image of the AWS subnets">
+
+
+
+
+
+
+
+
+
+
