@@ -75,7 +75,7 @@ http {
         } 
      }
  ```
-<p>The Two servers at the bottom represent our python(app) servers. Our app is dependent upon Python3.4, Flask and Pip3.</p> <br>
+<p>The Two servers at the bottom represent our python(app) servers. Our app is dependent upon Python3.4, Flask, uwsgi and Pip3.</p> <br>
 
 <b>Load balancing</b><br>
 
