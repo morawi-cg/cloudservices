@@ -110,13 +110,14 @@ The following load balancing mechanisms (or methods) are supported in nginx:
 
 
 <b><p>NGINX-Deployment</p></b>
-<p> We started the nginx confiuration adjustment be adding the 'app-holder' folder into the '/var/www/appholder' to that webserver's path.</P>
+<p> We started the nginx confiuration adjustment,(on  NGINX) by adding the 'app-holder' folder into the '/var/www/appholder' to that webserver's path.</p>
 
+<p> The application was added to that folder </p>
 ```
      
 
      sudo mkdir /var/www/appholder
-
+     sudo cp appserver.py /var/www/appholder
 
 ```
 
