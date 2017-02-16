@@ -142,7 +142,7 @@ Subnet mask send to communicate with the elastic IP
 
 Step 3:  AWS Subnets
 
-Setup Your Assosiated AWS Subnet
+Once  you created those you aws should show you an subnet with its assosciated vpc ip.
 <br>
 <img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/AWS_Subnets_Assosiated.PNG" alt="Image of the AWS subnets">
 
