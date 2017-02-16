@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "Hello World"
+    return "Devops Team Portal\n"
 
 @app.route('/cities.json')
 def cities():

@@ -108,6 +108,20 @@ The following load balancing mechanisms (or methods) are supported in nginx:
 <br> 
 <img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/Cloud_Services_Security_Groups.PNG" alt="Cloud Security Group">
 
+
+<b><p>NGINX-Deployment</p></b>
+<p> We started the nginx confiuration adjustment be adding the 'app-holder' folder into the '/var/www/appholder' to that webserver's path.</P>
+
+```
+     
+
+     sudo mkdir /var/www/appholder
+
+
+```
+
+<br>
+<b><p>Links</p></b> 
 <p>One key link to our details on web config 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-uwsgi-and-nginx-to-serve-python-apps-on-ubuntu-14-04 <p>
 
