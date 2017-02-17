@@ -1,5 +1,5 @@
-resource "aws_security_group" "app" {
-  name = "Security-Group-NGINX-Internal"
+resource "aws_security_group" "app2" {
+  name = "Security-Group-NGINX-Internal2"
   description = "Firewall rules for the app server to the webserver "
 
 
