@@ -80,6 +80,20 @@ http {
  ```
 <p>The Two servers at the bottom represent our python(app) servers. Our app is dependent upon Python3.4, Flask, uwsgi and Pip3.</p> <br>
 
+<b> Build Script </b>
+```
+#!/bin/bash
+
+sudo add-apt-repository ppa:nginx/stable
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get install nginx
+sudo /etc/init.d/nginx start
+
+
+exit 0
+```
+
+
 <b>Load balancing</b><br>
 
 <p>Load balancing across multiple application instances is a commonly used technique for optimizing resource utilization, maximizing throughput, reducing latency, and ensuring fault-tolerant configurations.</p>
@@ -108,7 +122,10 @@ The following load balancing mechanisms (or methods) are supported in nginx:
 
 <p>In this example were using the security groups to controll our inbound and outbound (ingress or egress) traffic, namely for ngix and igress routing.</p>
 
-<br> 
+<br>
+
+
+
 <img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/Cloud_Services_Security_Groups.PNG" alt="Cloud Security Group">
 
 <b> Python Process Interaction </b>
@@ -116,6 +133,9 @@ The following load balancing mechanisms (or methods) are supported in nginx:
 <br> 
 <img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/Python-Process-Interaction.PNG">
 
+<br><br>
+<p>The process in more depth</p>
+<img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/Process-Integration.png" alt= "Diagram of the Artitectture">
 <b><p>NGINX-Deployment</p></b>
 <p> Started the nginx confiuration adjustment,(on  NGINX) by adding the 'app-holder' folder into the '/var/www/appholder' to that webserver's path.</p>
 
@@ -127,6 +147,9 @@ The following load balancing mechanisms (or methods) are supported in nginx:
      sudo rm /etc/nginx/sites-enabled/default
 ```
 <br>
+
+
+
 <b><p>Links</p></b> 
 <p>One key link to our details on web config 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-uwsgi-and-nginx-to-serve-python-apps-on-ubuntu-14-04 <p>
