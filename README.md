@@ -95,6 +95,8 @@ exit 0
 ```
 <b> Identity</b>
 <p>In order to access your aws, you need some credentials.</p> 
+
+Configuring the aws-cli access.<a href="https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html">Link. </a>
  
  ```
  provider "aws" {
