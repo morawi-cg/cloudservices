@@ -214,8 +214,10 @@ Once  you created those you aws should show you an subnet with its assosciated v
 terraform get   # Compile and prepare the modules (needed if modules are used)
 terraform plan  # See what changes would the Terraform configuration make
 terraform apply # Apply the changes from the previous step
-In order to destroy infrastructure, defined in a state file:
+```
 
+In order to destroy infrastructure, defined in a state file:
+```
 terraform destroy
 ```
 <b><p>Links</p></b> 
