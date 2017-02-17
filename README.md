@@ -111,6 +111,10 @@ The following load balancing mechanisms (or methods) are supported in nginx:
 <br> 
 <img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/Cloud_Services_Security_Groups.PNG" alt="Cloud Security Group">
 
+<b> Python Process Interaction </b>
+
+<br> 
+<img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/Python-Process-Interaction.PNG">
 
 <b><p>NGINX-Deployment</p></b>
 <p> Started the nginx confiuration adjustment,(on  NGINX) by adding the 'app-holder' folder into the '/var/www/appholder' to that webserver's path.</p>
