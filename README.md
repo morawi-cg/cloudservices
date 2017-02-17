@@ -93,6 +93,18 @@ sudo /etc/init.d/nginx start
 
 exit 0
 ```
+<b> Identity</b>
+<p>In order to access your aws, you need some credentials.</p> 
+ 
+ ```
+ provider "aws" {
+  region = "${var.region}"
+  access_key = "${var.key}"
+  secret_key = "${var.secret}"
+}
+```
+ Full Guide on that Click<a href="https://www.terraform.io/docs/providers/aws/"> Here</a>
+
 <b>Load balancing</b><br>
 
 <p>Load balancing across multiple application instances is a commonly used technique for optimizing resource utilization, maximizing throughput, reducing latency, and ensuring fault-tolerant configurations.</p>
@@ -136,8 +148,7 @@ The following load balancing mechanisms (or methods) are supported in nginx:
 
 ```
 resource "aws_security_group" "app2" {
-  name = "Security-Group-NGINX-Internal2"
-  description = "Firewall rules for the app server to the webserver "
+  ........
 
   egress {
       from_port = 5000
@@ -160,8 +171,6 @@ resource "aws_security_group" "app2" {
 }
 
 ```
-
-
 <b><p>NGINX-Deployment</p></b>
 <p> Started the nginx confiuration adjustment,(on  NGINX) by adding the 'app-holder' folder into the '/var/www/appholder' to that webserver's path.</p>
 
@@ -173,12 +182,6 @@ resource "aws_security_group" "app2" {
      sudo rm /etc/nginx/sites-enabled/default
 ```
 <br>
-
-
-
-<b><p>Links</p></b> 
-<p>One key link to our details on web config 
-https://www.digitalocean.com/community/tutorials/how-to-set-up-uwsgi-and-nginx-to-serve-python-apps-on-ubuntu-14-04 <p>
 
 <b><h3>Steps to Follow: </h3></b>
 <br>
@@ -202,5 +205,23 @@ Once  you created those you aws should show you an subnet with its assosciated v
 
 <img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/AWS_Subnets_Assosiated.PNG" alt="Image of the AWS subnets">
 <br>
+
+<b>Terraform</b>
+
+<p>How to go about creating infrastructure from a Terraform configuration:</p>
+
+```
+terraform get   # Compile and prepare the modules (needed if modules are used)
+terraform plan  # See what changes would the Terraform configuration make
+terraform apply # Apply the changes from the previous step
+In order to destroy infrastructure, defined in a state file:
+
+terraform destroy
+```
+<b><p>Links</p></b> 
+<p>One key link to our details on web config: 
+https://www.digitalocean.com/community/tutorials/how-to-set-up-uwsgi-and-nginx-to-serve-python-apps-on-ubuntu-14-04 <p>
+
+<p></p>
 
 
