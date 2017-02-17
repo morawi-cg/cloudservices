@@ -81,6 +81,7 @@ http {
 <p>The Two servers at the bottom represent our python(app) servers. Our app is dependent upon Python3.4, Flask, uwsgi and Pip3.</p> <br>
 
 <b> Build Script </b>
+
 ```
 #!/bin/bash
 
@@ -92,8 +93,6 @@ sudo /etc/init.d/nginx start
 
 exit 0
 ```
-
-
 <b>Load balancing</b><br>
 
 <p>Load balancing across multiple application instances is a commonly used technique for optimizing resource utilization, maximizing throughput, reducing latency, and ensuring fault-tolerant configurations.</p>
@@ -124,8 +123,6 @@ The following load balancing mechanisms (or methods) are supported in nginx:
 
 <br>
 
-
-
 <img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/Cloud_Services_Security_Groups.PNG" alt="Cloud Security Group">
 
 <b> Python Process Interaction </b>
@@ -133,9 +130,38 @@ The following load balancing mechanisms (or methods) are supported in nginx:
 <br> 
 <img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/Python-Process-Interaction.PNG">
 
-<br><br>
+<br>
 <p>The process in more depth</p>
 <img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/Process-Integration.png" alt= "Diagram of the Artitectture">
+
+```
+resource "aws_security_group" "app2" {
+  name = "Security-Group-NGINX-Internal2"
+  description = "Firewall rules for the app server to the webserver "
+
+  egress {
+      from_port = 5000
+      to_port = 5000
+      protocol = "tcp"
+      cidr_blocks = ["0.0.0.0/0"] 
+  }
+  ingress {
+      from_port = 22
+      to_port = 22
+      protocol = "tcp"
+      cidr_blocks = ["0.0.0.0/0"]    
+  }
+  ingress {
+      from_port = 22
+      to_port = 22
+      protocol = "tcp"
+      cidr_blocks = ["0.0.0.0/0"]
+  }
+}
+
+```
+
+
 <b><p>NGINX-Deployment</p></b>
 <p> Started the nginx confiuration adjustment,(on  NGINX) by adding the 'app-holder' folder into the '/var/www/appholder' to that webserver's path.</p>
 
