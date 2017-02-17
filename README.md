@@ -54,8 +54,11 @@ func main() {
 http.HandleFunc("/", handler)
 http.ListenAndServe(":8484", nil)
 }
-``` 
-<h3> Cloud Structure </h3>
+```
+
+---
+
+<b><u><h3> Cloud Structure </h3></u></b>
 
 <b>Load Balancing with 'NGINX':</b>
 <p>This web server is one of the fastest and most reliable web servers. It has taken a large portion of the web server market since its launch. Written in a very efficient way makes it the most suitable for large scale high load deployments. 
@@ -113,45 +116,38 @@ The following load balancing mechanisms (or methods) are supported in nginx:
 <p> Started the nginx confiuration adjustment,(on  NGINX) by adding the 'app-holder' folder into the '/var/www/appholder' to that webserver's path.</p>
 
 <p> The application was added to that folder. The default confiuration was removed </p>
-```
-     
 
+```
      sudo mkdir /var/www/appholder
      sudo cp appserver.py /var/www/appholder
      sudo rm /etc/nginx/sites-enabled/default
 ```
-
 <br>
 <b><p>Links</p></b> 
 <p>One key link to our details on web config 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-uwsgi-and-nginx-to-serve-python-apps-on-ubuntu-14-04 <p>
 
-<b>Steps to Follow: </b>
-
-Step 1: Elastic IP
+<b><h3>Steps to Follow: </h3></b>
+<br>
+<b>Step 1: Elastic IP </b>
 
 This is for the external ip to access from client to our ip.
 
 <img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/AWS_ExternalP_to_natted_structure.PNG" alt="Image showing The elastic IP is created">
 <br>
-Step 2: Nat Gateway
+
+<b>Step 2: Nat Gateway </b>
 
 Subnet mask send to communicate with the elastic IP
 
 <img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/AWS_Allocate_Static_Elastic_IP.PNG" alt="Diagram Showing illustration of an Elastic IP">
+<br>
 
-Step 3:  AWS Subnets
+<b>Step 3:  AWS Subnets </b>
 
 Once  you created those you aws should show you an subnet with its assosciated vpc ip.
-<br>
+
 <img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/AWS_Subnets_Assosiated.PNG" alt="Image of the AWS subnets">
-
-
-
-
-
-
-
-
+<br>
 
 
