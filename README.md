@@ -146,6 +146,8 @@ The following load balancing mechanisms (or methods) are supported in nginx:
 <p>The process in more depth</p>
 <img src="https://raw.githubusercontent.com/morawi-cg/cloudservices/master/Process-Integration.png" alt= "Diagram of the Artitectture">
 
+<p>The code below is an ngix file which communicates with the different python application</p>
+
 ```
 resource "aws_security_group" "app2" {
   ........
